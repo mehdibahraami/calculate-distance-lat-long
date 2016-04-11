@@ -1,4 +1,4 @@
-# calculate-distance-lat-long
+# Calculate Distance, Latitude and Longitude
 This PHP class can calculate latitude and longitude from another latitude and longitude with a specific distance and bearing, and in another function you can calculate the distance between two latitude and longitude using Math functions in PHP.
 
 In this class distance calculate Based on the kilometer.
