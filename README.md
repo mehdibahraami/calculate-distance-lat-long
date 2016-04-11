@@ -34,13 +34,13 @@ $lon2 = 51.4933355083; //Longitude2
 ##Notices
 In this class distance calculate Based on the `Kilometer`.
 
-If you need it based on `Miles`, Change $d in `calculateLatLong` function to:
+If you need it based on `Miles`, Change `$d` in `calculateLatLong` function to:
 
 ```PHP
 $d = ($distance/1.609344) / 6371;
 ```
 
-and Change $distance in `calculateDistance` function to:
+and Change `$distance` in `calculateDistance` function to:
 
 ```PHP
 $distance = $dist * 60 * 1.1515;
