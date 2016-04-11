@@ -5,9 +5,15 @@ In this class distance calculate Based on the kilometer.
 
 If you need it based on miles, Change $d in calculateLatLong to:
 
+```PHP
 $d = ($distance/1.609344) / 6371;
+```
+
 
 
 and Change $distance in calculateDistance to:
 
+```PHP
 $distance = $dist * 60 * 1.1515;
+```
+
