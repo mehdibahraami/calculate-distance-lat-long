@@ -3,8 +3,6 @@
  * Created by Mehdi Bahrami
  */
 
-namespace app\Library;
-
 
 class Geographical
 {
