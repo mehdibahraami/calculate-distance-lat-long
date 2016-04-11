@@ -1,5 +1,7 @@
 #Calculate Distance and Latitude/Longitude
-This PHP class can calculate latitude and longitude from another latitude and longitude with a specific distance and bearing, and in another function you can calculate the distance between two latitude and longitude using Math functions in PHP.
+In this class of PHP in `calculateLatLong` function you can calculating latitude and longitude from focal latitude `$lat1` and longitude `$lon1` with a specific distance `$distance` from specified angle `$bearing`.
+
+Also in this class in `calculateDistance` function you can calculating distance between two latitude `$lat1 & $lat2` and longitude `$lon1 & $lon2`.
 
 ##Example
 For `calculateLatLong` function:
